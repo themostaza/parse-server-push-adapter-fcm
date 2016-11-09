@@ -1,6 +1,6 @@
 {
   "name": "parse-server-push-adapter-fcm",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "parse-server-push-adapter-fcm",
   "main": "lib/index.js",
   "files": [
