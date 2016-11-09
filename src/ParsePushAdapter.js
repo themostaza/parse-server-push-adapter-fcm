@@ -21,7 +21,7 @@ export class ParsePushAdapter {
     let pushTypes = Object.keys(pushConfig);
 
     for (let pushType of pushTypes) {
-      if (this.validPushTypes.indexOf(pushType) < 0) {
+      if (this.validPushTypes.indexOf(pushType) < 0 && pushtype !== 'adapter') {
         throw new Parse.Error(Parse.Error.PUSH_MISCONFIGURED,
                               'Push to ' + pushTypes + ' is not supported');
       }
